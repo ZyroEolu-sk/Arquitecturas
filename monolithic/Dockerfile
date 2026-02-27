@@ -1,4 +1,4 @@
 FROM python:3.9-slim
 WORKDIR /app
-COPY monolitica.py .
-CMD ["python", "monolitica.py"]
+COPY monolithic_persistence.py .
+CMD ["python", "monolithic_persistence.py"]
